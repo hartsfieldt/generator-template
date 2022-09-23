@@ -11,6 +11,13 @@ const promptUser = () => {
       type: "input",
       name: "name",
       message: "What is your name?",
+      validate: (value) => {
+        if (value) {
+          return true;
+        } else {
+          return "I need a value to continue";
+        }
+      },
     },
     {
       type: "input",
@@ -24,32 +31,32 @@ const promptUser = () => {
     },
     {
       type: "input",
-      name: "table of contents",
+      name: "title",
       message: "",
     },
     {
       type: "input",
-      name: "Section",
+      name: "title",
       message: "Installation Requirements",
     },
     {
       type: "input",
-      name: "Section",
-      message: "Useage",
+      name: "title",
+      message: "Usage",
     },
     {
       type: "input",
-      name: "Section",
+      name: "title",
       message: "Contributing Guidelines",
     },
     {
       type: "input",
-      name: "Section",
+      name: "title",
       message: "Test",
     },
     {
       type: "input",
-      name: "Section",
+      name: "title",
       message: "Questions",
       //Push contact name, gihHub profile and ways to contact here.
     },
