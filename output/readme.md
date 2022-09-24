@@ -1,38 +1,37 @@
+# Project Title
 
+Get Organized
 
-  # Title
-  Project Save Me
+![MIT License Badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-  ![Apache License Badge](https://img.shields.io/badge/license-Apache-brightgreen)
+## Description
 
-  ## Description
-  Help
+Track your task and assign project handlers
 
-  ## Table of Contents
-  
-[Installation](#installation)
-[Usage](#usage)
-[License](#license)
-[Contributing](#contributing)
-[Test](#test)
-[Questions](#questions)
-      
+## Table of Contents
 
-  ## Installation
-  None Needed
+-[Installation](#installation) -[Usage](#usage) -[License](#license) -[Contributing](#contributing) -[Test](#test) -[Questions](#questions)
 
-  ## Usage
-  Help
+## Installation
 
-  ## License
-  Apache License
+Organized API
 
-  ## Contributing
-  Yep
+## Usage
 
-  ## Tests
-  None
+Log your task and assign them to users and keep track of the task progress
 
-  ## Questions
-  None
-  
+## License
+
+The MIT License
+
+## Contributing
+
+Please provide feedback or solutions for advancement
+
+## Tests
+
+undefined
+
+## Questions
+
+hartsfieldt@gmail.com
