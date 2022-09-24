@@ -5,7 +5,7 @@ const path = require("path");
 //Import
 const generateMarkdown = require("./utils/generateMarkdown");
 
-//inquirer to generate questions
+//Inquirer to generate questions
 
 const questions = [
   {
@@ -61,12 +61,18 @@ const questions = [
   {
     type: "input",
     name: "contributing",
-    message: "How to contribute",
+    message: "What are the best ways to contribute to your project?",
+  },
+  {
+    type: "input",
+    name: "test",
+    message: "List any test phases?",
   },
   {
     type: "input",
     name: "questions",
-    message: "Where to send questions",
+    message:
+      "Please submit your contact information for potential questions regarding your application.",
   },
 ];
 
@@ -81,7 +87,7 @@ function writeToFile(data) {
         reject(err);
         return;
       }
-      resolve("ok");
+      resolve();
     });
   });
 }
@@ -103,8 +109,3 @@ function init() {
 }
 
 init();
-
-// TODO: Include packages needed for this application - Done
-// TODO: Create an array of questions for user input
-// TODO: Create a function to write README file
-// TODO: Create a function to initialize app

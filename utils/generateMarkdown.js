@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Function to render most popular open source license badge
 function renderLicenseBadge(license) {
   switch (license) {
     case "The MIT License":
@@ -13,8 +12,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Function to render most popular open source license details
 function renderLicenseLink(license) {
   switch (license) {
     case "The MIT License":
@@ -26,8 +24,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Renders license if N/A is selected then the returns back to the questions.
 function renderLicenseSection(license) {
   if (license === "N/A") {
     return "";
@@ -39,9 +36,8 @@ ${renderLicenseLink(license)}
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Generate Markdown file with an if statement that shows with out without a selected license.
 const generateMarkdown = (answers) => {
-  // console.log(answers);
   function renderTableOfContents(data) {
     if (data === "N/A") {
       return `
@@ -65,34 +61,37 @@ const generateMarkdown = (answers) => {
 
   return `
 
-  # Title
-  ${answers.title}
+# ${answers.title}
 
-  ${renderLicenseBadge(answers.license)}
+${renderLicenseBadge(answers.license)}
 
-  ## Description
-  ${answers.description}
+## Description
+${answers.description}
 
-  ## Table of Contents
-  ${renderTableOfContents(answers.license)}
+## Table of Contents
+${renderTableOfContents(answers.license)}
 
-  ## Installation
-  ${answers.installation}
+## Installation
+${answers.installation}
 
-  ## Usage
-  ${answers.usage}
+## Usage
+${answers.usage}
 
-  ## License
-  ${answers.license}
+## License - The following license was used in my project:
+${answers.license}
 
-  ## Contributing
-  ${answers.contributing}
+## Contributing - Best ways to contribute or Project Contributors:
+Made with ❤️ by ${answers.name}
 
-  ## Tests
+Additional Contributions: ${answers.contributing}
+
+## Tests
   ${answers.test}
 
-  ## Questions
-  ${answers.questions}
+## Questions - Please send all questions to:
+Name of Project Owner(s): ${answers.questions}
+
+Git Hub Profile: ${answers.github}
   `;
 };
 
