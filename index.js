@@ -33,7 +33,7 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message: "",
+    message: "Write the description of your project.",
   },
   {
     type: "input",
@@ -44,25 +44,12 @@ const questions = [
     type: "input",
     name: "usage",
     message: "How do we use your application?",
-    validate: (value) => {
-      if (value) {
-        return true;
-      } else {
-        return "I need a value to continue";
-      }
-    },
   },
   {
     type: "list",
     name: "license",
     message: "What license did you use?",
-    choices: [
-      "The MIT License",
-      "The GPL License",
-      "Apache License",
-      "GNU License",
-      "N/A",
-    ],
+    choices: ["The MIT License", "Apache License", "GNU License", "N/A"],
     validate: (value) => {
       if (value) {
         return true;
@@ -74,13 +61,12 @@ const questions = [
   {
     type: "input",
     name: "contributing",
-    message: "Test",
+    message: "How to contribute",
   },
   {
     type: "input",
-    name: "test",
-    message: "Questions",
-    //Push contact name, gihHub profile and ways to contact here.
+    name: "questions",
+    message: "Where to send questions",
   },
 ];
 
