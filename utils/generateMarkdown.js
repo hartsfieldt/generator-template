@@ -41,20 +41,20 @@ const generateMarkdown = (answers) => {
   function renderTableOfContents(data) {
     if (data === "N/A") {
       return `
--[Installation](#installation)
--[Usage](#usage)
--[Contributing](#contributing)
--[Test](#test)
--[Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Test](#test)
+- [Questions](#questions)
       `;
     } else {
       return `
--[Installation](#installation)
--[Usage](#usage)
--[License](#license)
--[Contributing](#contributing)
--[Test](#test)
--[Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Test](#test)
+- [Questions](#questions)
       `;
     }
   }
