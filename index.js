@@ -5,7 +5,7 @@ const path = require("path");
 //Import
 const generateMarkdown = require("./utils/generateMarkdown");
 
-//Inquirer to generate questions
+//Inquirer questions array
 
 const questions = [
   {
@@ -75,7 +75,7 @@ const questions = [
       "Please submit your contact information for potential questions regarding your application.",
   },
 ];
-
+// prompt user to start answering a series of questions
 const promptUser = () => {
   return inquirer.prompt(questions);
 };
@@ -91,7 +91,7 @@ function writeToFile(data) {
     });
   });
 }
-
+// start the questions, write file, and look for errors and responses.
 function init() {
   promptUser(questions)
     .then((answers) => {

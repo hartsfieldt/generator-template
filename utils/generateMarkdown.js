@@ -58,7 +58,7 @@ const generateMarkdown = (answers) => {
       `;
     }
   }
-
+  //README.MD template
   return `
 
 # ${answers.title}

@@ -15,7 +15,6 @@ Learn to code with Teresa Hartsfield
 -[Contributing](#contributing)
 -[Test](#test)
 -[Questions](#questions)
-      
 
 ## Installation
 Node js
@@ -38,4 +37,3 @@ Additional Contributions: Add any suggestions
 Name of Project Owner(s): hartsfieldt@gmail.com
 
 Git Hub Profile: hartsfieldt
-  
