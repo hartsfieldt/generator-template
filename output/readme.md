@@ -1,26 +1,27 @@
 
 
-# Code Wiz Durham
+# Sports Tracker
 
 ![MIT License Badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## Description
-Learn to code with Teresa Hartsfield
+Find upcoming games and get tickets online
 
 ## Table of Contents
 
--[Installation](#installation)
--[Usage](#usage)
--[License](#license)
--[Contributing](#contributing)
--[Test](#test)
--[Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Test](#test)
+- [Questions](#questions)
+      
 
 ## Installation
-Node js
+None
 
 ## Usage
-Sign up for a class and learn to code based on the course you are interested in
+Thru the web app
 
 ## License - The following license was used in my project:
 The MIT License
@@ -28,12 +29,13 @@ The MIT License
 ## Contributing - Best ways to contribute or Project Contributors:
 Made with ❤️ by Teresa Hartsfield
 
-Additional Contributions: Add any suggestions
+Additional Contributions: Send comments
 
 ## Tests
-  None so far
+  None
 
 ## Questions - Please send all questions to:
 Name of Project Owner(s): hartsfieldt@gmail.com
 
-Git Hub Profile: hartsfieldt
+Git Hub Profile: (https://github.com/hartsfieldt)
+  

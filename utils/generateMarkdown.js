@@ -91,7 +91,7 @@ Additional Contributions: ${answers.contributing}
 ## Questions - Please send all questions to:
 Name of Project Owner(s): ${answers.questions}
 
-Git Hub Profile: ${answers.github}
+Git Hub Profile: (https://github.com/${answers.github})
   `;
 };
 
